@@ -75,7 +75,7 @@ root = Tk()
 root.geometry('500x500')
 
 #background image 
-bg_img(root, "todo/Calendar.png")
+bg_img(root, "todo/bgimg.png")
 
 # main-frame(to-do tasks frame)
 style = ttk.Style()
