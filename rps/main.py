@@ -62,7 +62,7 @@ class SecondPage(tk.Frame):
         comp_frame.place(x=50, y=210)
         
         # Buttons
-        self.rock_button = self.create_image_button('Helene.png', lambda: self.on_button_click("rock"),frame2)
+        self.rock_button = self.create_image_button('rps/rock.png', lambda: self.on_button_click("rock"),frame2)
         self.rock_button.place(x=80, y=450)
         self.paper_button = self.create_image_button('rps/paper.png',lambda: self.on_button_click("paper"), frame2)
         self.paper_button.place(x=380, y=450)
