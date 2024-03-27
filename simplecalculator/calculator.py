@@ -1,29 +1,6 @@
 from tkinter import *
 import math
 
-# # ex = ''
-# def click(value):
-#     ex = entrybox.get()
-#     ans = ''
-
-#     if value == 'del':
-#         ex =ex[:-1]
-#         entrybox.delete(0,END)
-#         entrybox.insert(0,ex)
-
-
-#     elif value =='C':
-#         entrybox.delete(0, END)
-
-#     elif value == "=":
-#         ans =eval(ex)
-
-#     else:
-#         entrybox.insert(END,value)
-#         return
-
-#     entrybox.delete(0, END)
-#     entrybox.insert(0, ans)
 def click(value):
     ex = entrybox.get()
     ans = ''
